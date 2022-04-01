@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "p5hatty";
+	src: url("../font/p5hatty.ttf");
+}
+/* Color the main background */
+#bPane{
+	-fx-background-color: #36393f;
+
+}
+
+.label{
+	-fx-text-fill: #ffffff;
+	-fx-font: 35 "p5hatty";
+}
+#titleVBox{
+	-fx-background-color: #5865f2;
+}
+
+/* Style the buttons */
+.button{
+	-fx-font: 35 "p5hatty";
+	-fx-font-weight: bold;
+	-fx-background-color: #e84144;
+	-fx-text-fill: #ffffff;
+	-fx-pref-width: 200;
+}
+
+/* Give button 1 a unique color */
+#button1{
+	-fx-background-color: #379b57;
+}
+
+.text-field{
+	-fx-font: 35 "p5hatty";
+	-fx-pref-width: 480;
+}
+#outputField{
+	-fx-pref-width: 500;
+}

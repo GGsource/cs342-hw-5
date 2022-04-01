@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane id="bPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller= "MyController">
+	<top>
+		<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox"
+			fx:id = "titleVBox" alignment="center">
+			<Label fx:id = "titleLabel" text = "CS 342 Homework 3: Java FX Intro"/>
+		</VBox>
+	</top>
+	<left>
+		<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox"
+			fx:id = "buttonVBox" alignment="center">
+			<Button fx:id = "button1" text = "button 1" onAction = "#button1Method"/>
+			<Button fx:id = "button2" text = "button 2" onAction = "#button2Method"/>
+		</VBox>
+	</left>
+	<center>
+		<TextField fx:id = "inputField"/>	
+	</center>
+	<right>
+		<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox"
+			fx:id = "outputVBox" alignment="center">
+			<TextField fx:id = "outputField"/>
+		</VBox>
+	</right>
+</BorderPane>
+
