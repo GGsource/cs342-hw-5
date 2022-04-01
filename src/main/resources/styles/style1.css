@@ -1,3 +1,4 @@
+/* Import custom font */
 @font-face {
 	font-family: "p5hatty";
 	src: url("../font/p5hatty.ttf");
@@ -7,15 +8,15 @@
 	-fx-background-color: #36393f;
 
 }
-
+/* Customize Title Label font and color */
 .label{
 	-fx-text-fill: #ffffff;
 	-fx-font: 35 "p5hatty";
 }
+/* Give the top panel a unique color */
 #titleVBox{
 	-fx-background-color: #5865f2;
 }
-
 /* Style the buttons */
 .button{
 	-fx-font: 35 "p5hatty";
@@ -24,16 +25,16 @@
 	-fx-text-fill: #ffffff;
 	-fx-pref-width: 200;
 }
-
 /* Give button 1 a unique color */
 #button1{
 	-fx-background-color: #379b57;
 }
-
+/* Give the textfields the same font */
 .text-field{
 	-fx-font: 35 "p5hatty";
 	-fx-pref-width: 480;
 }
+/* make the output field wider to fit more text */
 #outputField{
 	-fx-pref-width: 500;
 }
